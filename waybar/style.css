@@ -15,15 +15,23 @@ tooltip {
     border: 1px solid #44475a;
 }
 
+#workspaces {
+    background: #44475a;
+    border-radius: 8px;
+    margin: 0 4px;
+    padding: 0 4px;
+}
+
 #workspaces button {
     padding: 0 8px;
     color: #6272a4;
     background: transparent;
     border: none;
+    border-radius: 0;
 }
 
 #workspaces button:hover {
-    background: #44475a;
+    background: #565a74;
     color: #f8f8f2;
 }
 
@@ -39,19 +47,50 @@ tooltip {
 }
 
 #workspaces button.active {
-  color: @red;
+    color: @red;
+    background: #3b4252;
+    border-radius: 6px;
+    margin: 0 2px;
+}
+
+#network {
+    padding: 0 6px 0 8px;
+    color: #81a1c1;
+    background: #44475a;
+    border-radius: 8px 0 0 8px;
+    margin: 0 0 0 4px;
+}
+
+#pulseaudio {
+    padding: 0 6px;
+    color: #88c0d0;
+    background: #44475a;
+    border-radius: 0;
+    margin: 0;
+}
+
+#cpu {
+    padding: 0 8px;
+    color: #d8dee9;
+    background: #44475a;
+    border-radius: 0 8px 8px 0;
+    margin: 0 4px 0 0;
 }
 
 #clock {
     padding: 0 10px;
-    color: #f8f8f2;
-    background: transparent;
+    color: #88c0d0;
+    background: #44475a;
+    border-radius: 8px;
+    margin: 0 4px;
 }
 
 #battery {
     padding: 0 8px;
     color: #f8f8f2;
-    background: transparent;
+    background: #44475a;
+    border-radius: 8px;
+    margin: 0 4px;
 }
 
 #battery.good {
